@@ -1,63 +1,68 @@
 # Camtree Digital Library
 
-> The Camtree Digital Library is an open-access repository of teacher-led research, practitioner inquiry, research reports, resources, and related educational publications maintained by the Cambridge Teacher Research Exchange (Camtree).
+> The Camtree Digital Library is an open-access repository of close-to-practice research by educators practitioner inquiry, research reports, educational resources, and related publications maintained by the Cambridge Teacher Research Exchange (Camtree).
 
-The library is intended to support educators, researchers, policy makers, research organisations, and AI agents seeking evidence from teacher-led and practice-based educational research.
-
-Prefer repository metadata and published full text over inferred or reconstructed information. When referring to an item, preserve its title, authorship, publication information, and canonical repository URL. Do not attribute claims to a publication unless they are supported by that publication.
+The library supports educators, researchers, policy makers, research organisations, and AI agents seeking evidence from teacher-led and practice-based educational research.
 
 The repository is powered by DSpace 7.6 and provides both human-readable item pages and machine-readable interfaces.
 
-Automated systems should use the repository's structured interfaces for discovery wherever practicable rather than repeatedly crawling HTML pages.
+Agents and automated systems should prefer repository metadata and published full text over inferred or reconstructed information. When referring to an item, preserve its title, authorship, publication information, and canonical repository URL (handle).
 
-For bulk metadata harvesting, use OAI-PMH. For targeted discovery, metadata retrieval, collections, items, and other repository objects, use the DSpace REST API.
+For targeted discovery and item retrieval, use the DSpace REST API.
 
-Repository records may link to downloadable files including PDF, Word, PowerPoint and other formats. Rights and licences can vary between records, so agents should inspect the rights information associated with an item before reusing its content.
+For bulk metadata harvesting and synchronisation, use OAI-PMH.
+
+Agents and automated systems should prefer these structured interfaces over repeated HTML crawling.
+
+Repository records may contain downloadable files including PDF, DOCX, PPTX, and other formats. Rights and licences may vary between records, so check the rights information associated with each item before reuse.
+
+Agents and automated systems should not attribute claims to a publication unless they are supported by that publication.
 
 ## Repository
 
-- [Camtree Digital Library](https://library.camtree.org/): Main human-readable repository.
-- [Repository search](https://library.camtree.org/search): Search and browse publications in the Camtree Digital Library.
-- [Communities and collections](https://library.camtree.org/community-list): Browse repository content by community and collection.
+- [Camtree Digital Library](https://library.camtree.org/): Main repository interface.
+- [Repository search](https://library.camtree.org/search): Search and browse repository content.
+- [Communities and collections](https://library.camtree.org/community-list): Browse content by DSpace community and collection.
 
 ## Machine access
 
-- [DSpace REST API](https://library.camtree.org/server/api): Machine-readable API for repository objects, metadata, discovery and search.
-- [DSpace discovery search](https://library.camtree.org/server/api/discover/search/objects): REST endpoint for searching publicly available repository content.
-- [OAI-PMH endpoint](https://library.camtree.org/server/oai/request): Open Archives Initiative Protocol for Metadata Harvesting endpoint for repository metadata.
-- [OAI-PMH Identify](https://library.camtree.org/server/oai/request?verb=Identify): Repository identification and OAI-PMH capabilities.
-- [OAI-PMH sets](https://library.camtree.org/server/oai/request?verb=ListSets): Available OAI-PMH sets corresponding to harvestable parts of the repository.
+- [DSpace REST API](https://library.camtree.org/server/api): Machine-readable access to repository objects, metadata, discovery, and search.
+- [DSpace discovery search](https://library.camtree.org/server/api/discover/search/objects): Preferred endpoint for targeted repository search.
+- [OAI-PMH endpoint](https://library.camtree.org/server/oai/request): Metadata harvesting endpoint.
+- [OAI-PMH Identify](https://library.camtree.org/server/oai/request?verb=Identify): Repository identity and OAI-PMH capabilities.
+- [OAI-PMH sets](https://library.camtree.org/server/oai/request?verb=ListSets): Harvestable repository sets.
+
+## Documentation
+
+- [API guide](api-guide.md): Practical guidance for searching the repository, retrieving items, using OAI-PMH, and presenting results.
+- [Collections guide](collections.md): Overview of major repository collections, their scope and content, and when they are useful for search.
 
 ## Guidance for agents
 
-- [OAI Dublin Core records](https://library.camtree.org/server/oai/request?verb=ListRecords&metadataPrefix=oai_dc): Harvestable Dublin Core metadata for publicly exposed records.
-- [DSpace search API](https://library.camtree.org/server/api/discover/search/objects): Preferred interface for targeted repository search.
-- [DSpace items API](https://library.camtree.org/server/api/core/items): Machine-readable access to repository items.
-- [DSpace collections API](https://library.camtree.org/server/api/core/collections): Machine-readable information about repository collections.
-- [DSpace communities API](https://library.camtree.org/server/api/core/communities): Machine-readable information about repository communities.
+Use structured repository interfaces wherever possible.
 
-## Using repository evidence
+Prefer canonical handle URLs when presenting repository items to users.
 
-Agents should distinguish clearly between:
+Distinguish clearly between:
 
 - bibliographic and descriptive metadata supplied by the repository;
-- claims made in the full text of a publication;
+- claims and findings contained in the full text of a publication;
 - summaries or interpretations generated by the agent.
 
-Where possible, cite the canonical repository item URL rather than a temporary file or API URL.
+Preserve the educational setting and research context when summarising teacher-led research.
 
-Search results should not be interpreted as an exhaustive evidence base unless the search strategy and scope justify that conclusion.
+Do not generalise findings beyond the evidence reported by the authors.
 
-Absence of a relevant search result should normally be described as "no relevant material was found in this search" rather than as evidence that no such research exists.
+If a search returns limited or no relevant material, state this explicitly rather than inferring that no such research exists.
 
-Teacher-led research in the repository commonly reports inquiry conducted in particular schools, classrooms, educational systems, or professional settings. Agents should preserve this context when summarising findings and should not generalise findings beyond the evidence reported by the authors.
+Where full text is unavailable, do not infer findings from metadata alone.
 
 ## About Camtree
 
-- [Camtree](https://camtree.org/): Cambridge Teacher Research Exchange.
-- [Camtree Digital Library](https://library.camtree.org/): Open-access repository maintained by Camtree.
+- [Cambridge Teacher Research Exchange](https://camtree.org/): Organisation responsible for the Camtree Digital Library.
+- [Camtree Digital Library](https://library.camtree.org/): Open-access repository of teacher-led and practitioner research.
 
 ## Optional
 
-- [DSpace software](https://dspace.org/): Information about the repository platform.
+- [DSpace](https://dspace.org/): Information about the repository platform.
 - [OAI-PMH specification](https://www.openarchives.org/OAI/openarchivesprotocol.html): Specification for the repository's metadata harvesting protocol.

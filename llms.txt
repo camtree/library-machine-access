@@ -65,8 +65,3 @@ Check the rights and licensing information associated with each item before reus
 
 - [Cambridge Teacher Research Exchange](https://camtree.org/): Organisation responsible for the Camtree Digital Library.
 - [Camtree Digital Library](https://library.camtree.org/): Open-access repository of teacher-led and practitioner research.
-
-## Optional
-
-- [DSpace](https://dspace.org/): Information about the repository platform.
-- [OAI-PMH specification](https://www.openarchives.org/OAI/openarchivesprotocol.html): Specification for the repository's metadata harvesting protocol.

@@ -4,6 +4,8 @@
 
 The library supports educators, researchers, policy makers, research organisations, and AI agents seeking evidence from teacher-led and practice-based educational research.
 
+This document supports AI agents, automated systems, and their designers to access Camtree Digital Library content efficiently, accurately, and in ways that respect the purpose of the library and the integrity of the research it contains. 
+
 The repository is powered by DSpace 7.6 and provides both human-readable item pages and machine-readable interfaces.
 
 For targeted discovery and item retrieval, use the DSpace REST API.

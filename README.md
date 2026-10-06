@@ -48,7 +48,7 @@ The primary machine-oriented entry point is:
 
 [llms.txt](llms.txt)
 
-It follows the `llms.txt` approach for providing a concise description of a resource and links to further machine-readable guidance.
+It follows the 'llms.txt' approach for providing a concise description of a resource and links to further machine-readable guidance.
 
 The file may be linked directly from the Camtree Digital Library interface so that users and automated systems can discover these resources even though the files are maintained separately from the DSpace server.
 
@@ -74,6 +74,6 @@ Changes are version-controlled through GitHub.
 
 ## About Camtree
 
-The [Cambridge Teacher Research Exchange](https://camtree.org/) supports teacher-led research, practitioner inquiry, professional learning, and open-access publication.
+[Camtree: the Cambridge Teacher Research Exchange](https://camtree.org/) supports close-to-practice research by educators, practitioner inquiry, professional learning, and open-access publication.
 
-The [Camtree Digital Library](https://library.camtree.org/) provides open access to research and related educational resources.
+The [Camtree Digital Library](https://library.camtree.org/) provides open access to the outcomes of close-to-practice research by educators and related educational resources.
